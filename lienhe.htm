@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Liên Hệ</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <style>
+    .action-buttons img {
+      height: 40px;
+      width: 40px;
+    }
+    
+    a{
+      text-decoration: none;
+    }
+    .icon-arange-up i:hover{
+        background-color: #111111;
+        color: white;
+    }
+    .icon-arange-up i{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background-color: white;
+      border: 2px solid #111111;
+    }
+    .icon-arange-up a:hover{
+      background-color: #111111;
+    }
+    .action-buttons i {
+      height: 30px;
+      width: 30px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .icon-animation {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: zalo-animation 2s ease-in-out infinite;
+    }
+
+    .action-buttons a {
+      margin-top: 10px;
+    }
+
+    @keyframes zalo-animation {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      50% {
+        transform: scale(1.2);
+        opacity: 0.8;
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .action-buttons {
+      position: fixed;
+      display: grid;
+      bottom: 0;
+      right: 0;
+      margin: 20px;
+      padding: 30px;
+
+    }
+
+    .btn {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      background-color: seagreen;
+    }
+
+    #comment {
+      border-radius: 10px;
+      border: 1px solid;
+    }
+
+    @media(max-width: 767px) {
+
+      header,
+      footer {
+        text-align: center;
+        padding: 20px 0;
+      }
+
+      nav {
+        display: none;
+      }
+
+      header,
+      footer {
+        background: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href=""><img src="image/banner-sale.png" style="max-width:100%;height: auto;"></a>
+  </header>
+  <header>
+    <div class="row" style="background-color: cadetblue;max-width: 100%;height: auto;">
+      <div class="col-sm-3"><img src="image/icon-mail.jpg" style="height: 17px;width: 8%;"> <a href=""
+          style="text-decoration: none;color: yellow;">hiepsktz101@gmail.com</a></div>
+      <div class="col-sm-3"></div>
+      <div class="col-sm-3"><img src="image/call_logo.png" style="height: 17px;width: 8%;">
+        <a href="" style="text-decoration: none;color: yellow;">0938731262</a>
+      </div>
+      <div class="col-sm-3"><a href="" style="text-decoration: none;color: orange;"><b>Hệ thống phân phối</b></a></div>
+    </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" style="height: 40px;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a href="guitarsale.htm"><img src="image/logo-main.png" style="height: 40px;width: 55px;"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="guitarsale.htm"><b>Trang Chủ</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gioithieu.htm">Giới Thiệu</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tất cả sản phẩm</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Guitar Acoustic</a></li>
+                <li><a class="dropdown-item" href="#">Guitar Classic</a></li>
+                <li><a class="dropdown-item" href="#">Guitar điện</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="lienhe.htm">Liên Hệ</a>
+            </li>
+          </ul>
+          <form class="d-flex align-items-center justify-content-center" style="gap: 20px;">
+            <a href="loginform.htm" class="hv-icon"><i class="fas fa-user" "></i></a>
+            <a href=" loginform.htm" class="hv-icon" style="text-decoration: none;">Tài Khoản</a>
+            <a href="" class="hv-icon"><i class="fas fa-shopping-cart" "></i></a>
+            <a href="" class=" hv-icon" style="text-decoration: none;">Giỏ hàng</a>
+            <div class="d-flex justify-content-center align-items-center">
+              <input class="form-control me-2" type="text" placeholder="Tìm kiếm ..." style="font-style: italic;">
+              <button class="btn btn-primary" type="button">Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Carousel -->
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner" style="width: 1280px;height: 500px;">
+      <div class="carousel-item active">
+        <img src="image/carousel1.png" class="d-block w-100" style="width: 1280px;height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="image/carousel2.png" class="d-block w-100" style="width: 1280px;height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="image/carousel3.png" class="d-block w-100" style="width: 1280px;height: 500px;">
+      </div>
+      <div class="carousel-item">
+        <img src="image/carousel4.png" class="d-block w-100" style="width: 1280px;height: 500px;">
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <div class="container-fluid" style="height: 50px;">
+    <div class="row" style="background-color: #ffddb7ca;">
+      <div class="col-sm-3 bg-#ffddb7">
+        <div class="dropdown">
+          <span class="toggle-icon" id="toggleIcon">☰</span>
+          <span class="menu-title">Danh Mục</span>
+          <div class="menu" id="menu">
+            <ul>
+              <li><a href="">Sản Phẩm Đã Xem</a></li>
+              <li><a href="">Sản Phẩm Đã Thích</a></li>
+              <li><a href="">Giới Thiệu</a></li>
+              <li><a href="">Liên Hệ</a></li>
+              <li><a href="">Tài Khoản</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-9" style="display: flex;justify-content: center;">
+        <div class="acoustic">
+          <a href="" class="guitar"">Guitar Acoustic</a>
+              </div>
+              <div class=" classic">
+            <a href="" class="guitar">Guitar Classic</a>
+        </div>
+        <div class="electric">
+          <a href="" class="guitar">Guitar Điện</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="lienhe-middle" style="text-align: center;margin-top: 35px;">
+    <h1 style="color: #111111;">Liên Hệ</h1>
+    <div>
+      <p style="color: #555555;"><a href="guitarsale.htm" style="text-decoration: none;color: #111111;">Trang Chủ</a> /
+        Liên Hệ</p>
+    </div>
+  </div>
+  <div style="margin-top: 50px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.9544104258935!2d106.67525717373027!3d10.737997189408441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f62a90e5dbd%3A0x674d5126513db295!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgU8OgaSBHw7Ju!5e0!3m2!1svi!2s!4v1717218781319!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <div style="margin-top: 20px;">
+    <h1 style="font-size: 25px;">Thông Tin Liên Hệ</h1>
+    <p>Phone / Zalo : 0938731262</p>
+    <p>Email: <a href="">DH52110894@student.stu.edu.vn</a></p>
+  </div>
+  <div>
+    <form action="" class="email-form">
+      <label for="" style="margin-left: 0;"></label>Họ tên:<input type="text" style="margin-right: 5px;">
+      <label for="">Email:</label><input type="email" id="email"><br>
+      <div id="emailError"></div>
+      <label for="comment" style="margin-top: 10px;">Nội dung:</label>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
+      <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+    </form>
+  </div>
+  <div class="action-buttons">
+    <a href="">
+      <img class="icon-animation" src="image/zalo-icon.png" alt="Zalo">
+    </a>
+    <a href="">
+      <img class="icon-animation" id="phone-icon" src="image/phone-icon.jpg" style="border-radius: 30px;" alt="Phone">
+    </a>
+    <a href="">
+      <img class="icon-animation" src="image/messenger-icon.jpg" style="border-radius: 30px;" alt="Messenger">
+    </a>
+    <a href="javascript:void(0);" class="scroll-up" id="scroll-up">
+      <div class="icon-arange-up">
+        <i class="fa fa-arrow-up" style="margin-left: 40px;" aria-hidden="true"></i>
+      </div>
+    </a>
+  </div>
+  <footer>
+    <div style="text-align: center;height: 35px;background-color: cadetblue;font-size: 25px;">
+      <p>&copy;Trần Ngọc Hiệp - DH52110894 - D21_TH06</p>
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

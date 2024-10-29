@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background:url(/websiteguitar/image/backgroundGuitar-loginForm.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    input{
+        margin-top: 10px;
+    }
+    .loginform{
+        text-align: center;
+    }
+
+    .wrapper{
+        border: none;
+        margin: 0 auto;
+        width: 420px;
+        border: 3px solid;
+        padding: 30px 40px;
+        background-color:  rgba(0, 0, 0, 0.5);;
+    }
+    .input-box input{
+        width: 100%;
+        height: 50px;
+        border-radius: 40px;
+        border: 2px solid;
+    }
+    .input-box i{
+        position: absolute;
+        right: 20px;
+        margin-top: 25px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .btnDangNhap{
+        width: 100%;
+        height: 50px;
+        border-radius: 40px;
+        border: 2px solid;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .wrapper .input-box{
+        position: relative;
+        width: 100%;
+        height: 50px;
+        margin: 30px 0;
+    }
+</style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2 style="text-align: center;color: aliceblue;">Đăng Nhập</h2>
+        <form action="" class="loginform">
+            <div class="input-box">
+                <input type="text" placeholder="Tài Khoản" required>
+                <i class="fas fa-user" "></i><br>
+            </div>
+            <div class="input-box" style="margin-top: 10px;">
+                <input  type="text" placeholder="Mật Khẩu" required>
+                <i class="fa fa-lock" aria-hidden="true"></i></i><br>
+                
+            </div>
+            <div style="margin-top: 10px;color: aliceblue;">
+                <label style="margin-right: 80px;"><input type="checkbox" style="margin-right: 3px;">Lưu Mật Khẩu</label>
+                <a href="" style="text-decoration: none;">Quên Mật Khẩu?</a>
+            </div>
+            <div>
+                <button type="button" class="btnDangNhap">Đăng Nhập</button>
+            </div>
+            <div style="color: aliceblue;">
+                <label for="" >Bạn chưa có tài khoản?</label><a href="registerform.htm">Đăng ký</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

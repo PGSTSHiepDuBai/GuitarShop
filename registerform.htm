@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .errorMessage {
+            color: red;
+            font-size: 14px; 
+            margin-top: 5px; 
+        }
+        .centered-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .regisForm {
+            width: 100%;
+        }
+        .errorMessage {
+            color: red;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container centered-form">
+        <div class="row w-100">
+            <div class="col-md-6 offset-md-3">
+                <h2 class="text-center">Đăng ký</h2>
+                <form class="regisForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+                        <div class="errorMessage" id="nameErrorMessage"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
+                        <div class="errorMessage" id="emailErrorMessage"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="passwordInput" placeholder="Enter your password">
+                        <div class="errorMessage" id="passwordErrorMessage"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">SĐT</label>
+                        <input type="tel" class="form-control" id="phoneInput" placeholder="Enter your phone number">
+                        <div class="errorMessage" id="phoneErrorMessage"></div>
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="validateForm()">Đăng ký</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
